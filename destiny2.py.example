@@ -1,0 +1,33 @@
+class destiny2_config(object):
+    
+    # 请求头
+    # 将 API_KEY 替换成你的BungieAPIKey
+    # 登陆Bungie.net后打开下方链接创建应用并获取API Key
+    # https://www.bungie.net/zh-cht/Application
+    HEADERS = {"X-API-Key":'aff47ade61f643a19915148cfcfc6d7d'}
+    
+    # 默认语言
+    # 从下方列表中选择一个,作为函数的默认参数
+    # ["en","fr","es","es-mx","de","it","ja","pt-br","ru","pl","ko","zh-cht","zh-chs"]
+    DEFAULT_LANGUAGE = 'zh-cht'
+
+    # 加载语言
+    # 启动Bot时加载Manifest的语言列表
+    # 使用更新Mani命令时将会处于加载语言列表中的Manifest
+    LOAD_LANGUAGES = ['zh-cht', 'zh-chs']
+
+    # 代理
+    # 服务器位于中国大陆的话建议使用代理 否则请求BungieAPI将让你怀疑人生
+    PROXY = True
+    
+    # 代理配置
+    PROXIES = {
+        'http':'127.0.0.1:7890',
+        'https':'127.0.0.1:7890'
+    }
+
+    # Manifest文件储存路径
+    MANIFEST_FILE_DIR = "/home/ubuntu/HoshinoBot/res/destiny2/"
+
+    # 无需进行任何改动 后续可能移除
+    USELESS_STATS = [3897883278,1935470627,1885944937,1480404414,1931675084]

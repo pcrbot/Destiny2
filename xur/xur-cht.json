@@ -1,0 +1,95 @@
+{
+    "location": {
+        "name": "涅索斯·桃源山谷·守望者之墓"
+    },
+    "item": {
+        "weapon": {
+            "3628991658": {
+                "name": "引力子長矛",
+                "description": "想像時空是織布機上的掛毯，這把武器則是縫針。",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/492d92346c4325dada5455281ea00053.jpg",
+                "type1": "特殊武器",
+                "type2": "脈衝步槍",
+                "damageType": "虛空傷害",
+                "stat": {
+                    "每分鐘發射量": 257,
+                    "命中": 29,
+                    "射程": 75,
+                    "穩定性": 110,
+                    "彈匣": 31,
+                    "填裝速度": 61,
+                    "操作性": 54,
+                    "瞄準焦距": 17,
+                    "瞄準輔助": 60,
+                    "後座力方向": 85
+                },
+                "perk": {
+                    "name": "暗影黑洞",
+                    "description": "點放的第二擊可劃開超越時空的黑洞，造成大量傷害和毫無下降的後座力。"
+                }
+            }
+        },
+        "armor": {
+            "1053737370": {
+                "name": "忍野的誓言",
+                "description": "「彈盡援絕、防具盡損；但難民們需要她的幫助，而她也一諾千金。」——《六土狼傳》",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/41d16b23c1af5dbf3363bc34bd591ce6.jpg",
+                "type1": "獵人",
+                "type2": "臂鎧",
+                "stat": {
+                    "機動": 11,
+                    "韌性": 7,
+                    "回復": 6,
+                    "戒律": 16,
+                    "智慧": 2,
+                    "力量": 6
+                },
+                "statSum": 48,
+                "perk": {
+                    "name": "新鮮把戲",
+                    "description": "強化彈跳手榴彈，且獲得額外的彈跳手榴彈使用次數。對敵人造成傷害後，彈跳手榴彈將回收能量。"
+                }
+            },
+            "3874247549": {
+                "name": "治療設備",
+                "description": "對此只有一個治療方法。",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/9482dc5d359231558d9ac7f70e5bbd86.jpg",
+                "type1": "泰坦",
+                "type2": "胸部防具",
+                "stat": {
+                    "韌性": 12,
+                    "回復": 7,
+                    "機動": 6,
+                    "戒律": 12,
+                    "智慧": 6,
+                    "力量": 6
+                },
+                "statSum": 49,
+                "perk": {
+                    "name": "順帶一提",
+                    "description": "獲得一顆額外手榴彈。"
+                }
+            },
+            "3084282676": {
+                "name": "逃脫大師",
+                "description": "別熄火。",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/673dfa5edf0723adf0275cf30281a123.jpg",
+                "type1": "術士",
+                "type2": "臂鎧",
+                "stat": {
+                    "韌性": 7,
+                    "回復": 11,
+                    "機動": 6,
+                    "戒律": 12,
+                    "智慧": 6,
+                    "力量": 6
+                },
+                "statSum": 48,
+                "perk": {
+                    "name": "動力雙雄",
+                    "description": "：將你的電弧手榴彈轉化成一枚超充能的電弧之魂。電弧之魂的運作方式類似自動砲塔。"
+                }
+            }
+        }
+    }
+}

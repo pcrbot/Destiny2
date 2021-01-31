@@ -1,0 +1,95 @@
+{
+    "location": {
+        "name": "涅索斯·阿卡狄亚谷·守望者之墓"
+    },
+    "item": {
+        "weapon": {
+            "3628991658": {
+                "name": "引力子长枪",
+                "description": "将时空想象成织机上的锦缎。武器是针。",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/492d92346c4325dada5455281ea00053.jpg",
+                "type1": "能量武器",
+                "type2": "脉冲步枪",
+                "damageType": "虚空伤害",
+                "stat": {
+                    "每分钟发射数": 257,
+                    "伤害": 29,
+                    "射程": 75,
+                    "稳定性": 110,
+                    "弹匣": 31,
+                    "填装速度": 61,
+                    "操控性": 54,
+                    "变焦": 17,
+                    "辅助瞄准": 60,
+                    "后坐方向": 85
+                },
+                "perk": {
+                    "name": "黑洞",
+                    "description": "点射的第二发会撕裂时空，造成不会衰减的高伤害和反冲力。"
+                }
+            }
+        },
+        "armor": {
+            "1053737370": {
+                "name": "忍野的誓言",
+                "description": "“没有补给。护甲破旧不堪。但难民请求援助。而她许下了承诺。”——六狼传说",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/41d16b23c1af5dbf3363bc34bd591ce6.jpg",
+                "type1": "猎人",
+                "type2": "臂铠",
+                "stat": {
+                    "敏捷": 11,
+                    "韧性": 7,
+                    "恢复": 6,
+                    "纪律": 16,
+                    "智慧": 2,
+                    "力量": 6
+                },
+                "statSum": 48,
+                "perk": {
+                    "name": "全新招数",
+                    "description": "增加弹跳手雷效果，并使你获得一枚额外的弹跳手雷。若伤害到敌人，则可恢复弹跳手雷能量。"
+                }
+            },
+            "3874247549": {
+                "name": "医疗设备",
+                "description": "对于这种病，有良药一剂。",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/9482dc5d359231558d9ac7f70e5bbd86.jpg",
+                "type1": "泰坦",
+                "type2": "胸部护甲",
+                "stat": {
+                    "韧性": 12,
+                    "恢复": 7,
+                    "敏捷": 6,
+                    "纪律": 12,
+                    "智慧": 6,
+                    "力量": 6
+                },
+                "statSum": 49,
+                "perk": {
+                    "name": "再来一份",
+                    "description": "获得额外一枚手雷。"
+                }
+            },
+            "3084282676": {
+                "name": "逃逸艺术家",
+                "description": "别让引擎停下。",
+                "icon": "https://www.bungie.net/common/destiny2_content/icons/673dfa5edf0723adf0275cf30281a123.jpg",
+                "type1": "术士",
+                "type2": "臂铠",
+                "stat": {
+                    "韧性": 7,
+                    "恢复": 11,
+                    "敏捷": 6,
+                    "纪律": 12,
+                    "智慧": 6,
+                    "力量": 6
+                },
+                "statSum": 48,
+                "perk": {
+                    "name": "动态二重奏",
+                    "description": "：将你的电弧手雷转换成超级充能的电弧之魂。电弧之魂的作用相当于一个自动炮台。"
+                }
+            }
+        }
+    }
+}
