@@ -14,7 +14,7 @@ class destiny2_config(object):
     # 加载语言
     # 启动Bot时加载Manifest的语言列表
     # 使用更新Mani命令时将会处于加载语言列表中的Manifest
-    LOAD_LANGUAGES = ['zh-cht', 'zh-chs']
+    LOAD_LANGUAGES = ['zh-cht','zh-chs']
 
     # 代理
     # 服务器位于中国大陆的话建议使用代理 否则请求BungieAPI将让你怀疑人生
@@ -29,5 +29,26 @@ class destiny2_config(object):
     # Manifest文件储存路径
     MANIFEST_FILE_DIR = "/home/ubuntu/HoshinoBot/res/destiny2/"
 
+    # Manifest自动更新时间
+    # 请注意 变量MANIFEST_AUTO_UPDATE_DAY指"每n天"
+    # 默认值指每天凌晨1时00分进行manifest的自动更新 
+    MANIFEST_AUTO_UPDATE_DAY = 1
+    MANIFEST_AUTO_UPDATE_HOUR = 1
+    MANIFEST_AUTO_UPDATE_MINUTE = 0
+
     # 无需进行任何改动 后续可能移除
     USELESS_STATS = [3897883278,1935470627,1885944937,1480404414,1931675084]
+
+    MANIFEST_HASHES = {
+    'DestinyClassDefinition': 'hash',
+    'DestinyInventoryItemDefinition': 'hash',
+    'DestinyDamageTypeDefinition': 'hash',
+    'DestinyItemCategoryDefinition': 'hash',
+    'DestinyTalentGridDefinition': 'hash',
+    'DestinyHistoricalStatsDefinition': 'statId',
+    'DestinyStatDefinition': 'hash',
+    'DestinyStatGroupDefinition': 'hash',
+    'DestinySandboxPerkDefinition': 'hash',
+    'DestinyInventoryBucketDefinition': 'hash',
+    'DestinySeasonDefinition':'hash'
+    }
